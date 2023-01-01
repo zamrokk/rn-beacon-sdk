@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "rn-beacon-sdk": ["../src/index"],
+      "rn-beacon-sdk/*": ["../src/*"]
+    }
+  }
+}
